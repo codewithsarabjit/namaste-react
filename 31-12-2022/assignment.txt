@@ -1,0 +1,22 @@
+what is JSX?
+it is an extension to javascript. It allows us to write HTML in javascript and place them in DOM without use of any javascript functions like 
+append or create element.
+
+Superpowers of JSX?
+1. write HTML in javascript
+2. we can pass jsx into javascript variables
+3. JSX supports all javascript expressions and loops.
+4. we can use JSX element attributes as props in the child components.
+
+Role of type attribute in script tag. what options can we use.
+type attribute in script tag is to tell browser or js engine that what kind of javascript code is present in that file.
+1. we can type="module" to tell js engine that the js file being imported is a module and not plan javascript.
+2. "importmap" is another option which basically tells how to resolve the different ES javascript modules into the HTML.
+example if there is a module name event then it should resolve to "path/src/event.js"
+
+{TitleComponent} vs {<TitleComponent />} vs {<TitleComponent></TitleComponent>} in JSX?
+{<TitleComponent />} is the correct way to call a child component in JSX.
+
+
+
+

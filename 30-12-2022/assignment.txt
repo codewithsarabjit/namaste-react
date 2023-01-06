@@ -85,3 +85,6 @@ npm install --save-dev parcel and npm install -D parcel are the same thing.
 ignite your parcel app:
 npx parcel entryfile
 npx parcel index.html
+
+//to execute a script from scripts section in package.json
+npm run build

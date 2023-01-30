@@ -181,9 +181,119 @@ config driven UI is a method by which the frontend UI of a web page is rendered 
 backend or from API. example. a food application may have an offers section which may or may not be displayed to users based on certain 
 conditions like their location.
 
+7 Jan 2023
+
+Difference between Named export, Default export, * as export.
+Named export: 
+export const Variable1 = () => {};
+import {Variable1} from '';
+
+Default export:
+const Variable1 = () => {};
+export default Variable1;
+import Variable1 from '';
+
+* as export:
+import * as Obj from '';
+Obj.Variable1();
+
+Importance of config.js?
+config.js is an important file in the project where you should keep the API baseurl or endpoint so that it can be managed from one file. Similarly, 
+other key settings or urls or keys can be kept in this config.js file.
+
+React Hooks?
+React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component.
+
+Why do we need useState hook?
+The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these! We could create 
+multiple state Hooks to track individual values.
+
+
+Chapter-06 - Exploring the world
+
+What is a Microservice?
+
+What is Monolith architecture?
+
+What is the difference between Monolith and Microservice?
+
+Why do we need a useEffect Hook?
+
+What is Optional Chaining?
+
+What is Shimmer UI?
+
+What is the difference between JS expression and JS statement?
+
+What is conditional rendering, explain with a code example.
+
+What is CORS?
+
+what is async and await?
+
+What is the use of `const json = await data.json();` in getRastaurants()
+
+
+
+Chapter - 07 - Finding the path
+
+What are various waus to add images into our App? Explain with code examples.
+
+What would happen if we do console.log(useState())?
+
+How will useEffect behave if we don't add a dependency array?
+
+What is SPA?
+
+What is difference between Client Side Routing and Server Side Routing?
+
+
+Chapter - 08 - Let's get Classy
+
+How do you create Nested Routes in react-router-dom configuration?
+
+Read about createHashRouter, createMemoryRouter from React Router docs.
+
+What is the order of life cycle method calls in Class Based Components.
+
+Why do we use componentDidMount?
+
+Why do we use componentWillUnmount? Show with example.
+
+(Research) Why do we use super(props) in constructor?
+
+(Research) Why can't we have the callback function of useEffect async?
+
+
+
+Chapter - 09 - Optimizing our App
+
+When and why do we need lazy()?
+
+What is suspense?
+
+Why we got this error: A component suspended while responding to synchronous input. This will cause the UI to be replaced with a loading
+indicator. To fix, update that suspend should be wrapped with startTransition? How does suspense fix this error?
+
+Advantages and disadvantages of using this code splitting pattern?
+
+When do we and why do we need suspense?
+
+
+
+Chapter - 10 - Jo dikhta he vo bikta he
+
+Explore all the ways of writing css and list them.
+
+How do we configure tailwind?
+
+In tailwind.config.js, what does all the keys mean (content, theme, extend, plugins)?
+
+Why do we have .postcssrc file?
 
 
 
 
+Chapter - 11 - Data is the new Oil.
 
 
